@@ -30,6 +30,7 @@ cd SaaS-ify
 ```
 
 **2. Install Dependencies**
+
 Make sure you have Python 3 installed. Then, install the required libraries.
 
 ```bash
@@ -38,11 +39,13 @@ pip install -r requirements.txt
 ```
 
 **3. Set Your API Key**
+
 This tool requires an API key from either OpenAI or Google to power the jargon engine. It reads the key securely from an environment variable.
 
 **Choose ONE provider and set the key:**
 
 *   **For OpenAI:**
+
 Get your key from [platform.openai.com](https://platform.openai.com/api-keys). Then set the environment variable.
 
     *   On macOS/Linux:
@@ -58,7 +61,9 @@ set OPENAI_API_KEY="your_secret_api_key_here"
 ```
 
 *   **For Google Gemini:**
-    Get your key from [Google AI Studio](https://makersuite.google.com/app/apikey). Then set the environment variable.
+
+
+Get your key from [Google AI Studio](https://makersuite.google.com/app/apikey). Then set the environment variable.
 
     *   On macOS/Linux:
     
@@ -76,26 +81,8 @@ set GEMINI_API_KEY="your_secret_api_key_here"
 
 ### Usage
 
-You can run the script in two ways: by providing text directly as an argument or through an interactive prompt.
+Run the script with only the provider argument. It will then prompt you to enter your text.
 
-**Metohod 1: Command-Line Argument**
-Provide the AI provider and the deep-tech pitch line you want to translate.
-
-Syntax:
-
-```bash
-python main.py --provider <openai_or_gemini> --text "Your honest pitch line here."
-```
-
-Example (Using OpenAI):
-
-```bash
-python main.py --provider openai --text "We built a sensor that can detect metal fatigue more accurately."
-**Using OpenAI:**
-```
-Method 2: Interactive Mode
-
-For a more conversational experience, run the script with only the provider argument. It will then prompt you to enter your text.
 Syntax:
 
 ```bash
