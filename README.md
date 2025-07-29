@@ -4,7 +4,7 @@
 ![For Founders](https://img.shields.io/badge/for-Founders%20&%20VCs-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Tired of your brilliant deep-tech breakthrough getting blank stares from VCs? This satirical command-line tool translates your honest pitch into the hyper-exaggerated, buzzword-filled B2B SaaS jargon they actually want to hear.
+Tired of your brilliant deep-tech breakthrough getting blank stares from VCs? This command-line tool translates your pitch into VC-friendly B2B SaaS jargon they actually want to hear.
 
 > **Disclaimer:** This is a parody tool. Using this in a real pitch might get you laughed out of the room... or it might get you funded. Who knows anymore?
 
