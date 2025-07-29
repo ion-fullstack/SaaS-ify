@@ -69,17 +69,17 @@ The script is run from the command line. You must specify the AI provider (`open
 
 **Basic Syntax:**
 ```bash
-python main.py --provider <openai_or_gemini> --text "Your honest pitch line here."
+python main.py --provider <openai_or_gemini>
 ```
 
 #### Examples
 
 **Using OpenAI:**
 ```bash
-python main.py --provider openai --text "We built a sensor that can detect metal fatigue more accurately."
+python main.py --provider openai
 ```
 
 **Using Gemini:**
 ```bash
-python main.py --provider gemini --text "Our bioreactor works more efficiently because of a new filter we developed."
+python main.py --provider gemini
 ```
