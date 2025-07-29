@@ -18,68 +18,11 @@ It helps you turn your honest, technical pitch...
 
 `"We've developed a proprietary, AI-driven materials discovery platform to create next-generation composites, disrupting the $500B legacy manufacturing sector. Our hyper-scalable, cloud-native solution provides a 10x improvement in strength-to-weight ratios, creating an unassailable moat. We're pre-revenue but are projecting a $15M ARR by Q4."`
 
+***
+
 ### Setup and Installation
 
 **1. Clone the Repository**
 ```bash
-git clone https://github.com/YourUsername/SaaS-ify.git
+git clone [https://github.com/ion-fullstack/SaaS-ify.git](https://github.com/ion-fullstack/SaaS-ify.git)
 cd SaaS-ify
-```
-*(Remember to replace `YourUsername` with your actual GitHub username!)*
-
-**2. Install Dependencies**
-Make sure you have Python 3 installed. Then, install the required libraries.
-```bash
-pip install -r requirements.txt
-```
-
-**3. Set Your API Key**
-This tool requires an API key from either OpenAI or Google to power the jargon engine. It reads the key securely from an environment variable.
-
-**Choose ONE provider and set the key:**
-
-*   **For OpenAI:**
-    Get your key from [platform.openai.com](https://platform.openai.com/api-keys). Then set the environment variable.
-
-    *   On macOS/Linux:
-        ```bash
-        export OPENAI_API_KEY="your_secret_api_key_here"
-        ```
-    *   On Windows (Command Prompt):
-        ```bash
-        set OPENAI_API_KEY="your_secret_api_key_here"
-        ```
-
-*   **For Google Gemini:**
-    Get your key from [Google AI Studio](https://makersuite.google.com/app/apikey). Then set the environment variable.
-
-    *   On macOS/Linux:
-        ```bash
-        export GEMINI_API_KEY="your_secret_api_key_here"
-        ```
-    *   On Windows (Command Prompt):
-        ```bash
-        set GEMINI_API_KEY="your_secret_api_key_here"
-        ```
-> **Note:** You must set the environment variable in the same terminal session where you run the script.
-
-### Usage
-
-The script is run from the command line. You must specify the AI provider (`openai` or `gemini`) and the deep-tech pitch line you want to translate.
-
-**Basic Syntax:**
-```bash
-python main.py --provider <openai_or_gemini>
-```
-
-#### Examples
-
-**Using OpenAI:**
-```bash
-python main.py --provider openai
-```
-
-**Using Gemini:**
-```bash
-python main.py --provider gemini
-```
