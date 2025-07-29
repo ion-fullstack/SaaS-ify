@@ -25,7 +25,7 @@ It helps you turn your honest, technical pitch...
 **1. Clone the Repository**
 
 ```bash
-git clone [https://github.com/ion-fullstack/SaaS-ify.git](https://github.com/ion-fullstack/SaaS-ify.git)
+git clone https://github.com/ion-fullstack/SaaS-ify.git
 cd SaaS-ify
 ```
 
